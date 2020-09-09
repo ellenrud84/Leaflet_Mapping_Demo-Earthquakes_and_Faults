@@ -1,4 +1,3 @@
-// code for creating Advanced Map (Level 2)
     //PART1: CREATE BASE MAPS:
 //______________________________
 
