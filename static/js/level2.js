@@ -122,7 +122,7 @@ quakeLayer.addTo(myMap);
 //________________________
 
 //1. define fault path
-const faultPath='static/data/qfaults_latest_quaternary.geojson';
+const faultPath='../static/data/qfaults_latest_quaternary.geojson';
     
     //pull data from faultPath:
 d3.json(faultPath).then(
