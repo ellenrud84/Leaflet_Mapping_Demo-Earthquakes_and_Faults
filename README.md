@@ -6,8 +6,16 @@ In this demo I use the Leaflet mapping plugin to create interactive maps showing
 Leaflet, html, CSS,
 
 ## Results:
-TODO ADD PICTURES AND DESCRIPTIONS
+Is is evident from the mapping demo, that most earthquakes are clustered around areas with several fault lines (as expected).
 
+The map has multiple base layer options that can be toggled by the user:
+![image showing multiple base layers on map of USA](https://github.com/ellenrud84/leaflet_mapping_basemaps.gif "Base Layers")
+
+The map also has overlay layers containing USGS earthquake data from the past month (updated every 5 minutes) and a map of faultlines in the United States:
+![image showing multiple data overlay layers on map of USA](https://github.com/ellenrud84/leaflet_mapping_overlays.gif "Overlay Layers")
+
+Each earthquake or fault-line marker contains a tooltip that shows the user more information when clicked:
+![image showing multiple data overlay layers on map of USA](https://github.com/ellenrud84/leaflet_mapping_tooltips.gif "Tooltips")
 
 ## Methods:
 The earthquake data was imported and each earthquakes position, significance and magnitude were pulled out of the dataset.  At each earthquakes position, a circle element was appended to the leaflet map. Each data marker reflects the magnitude of the earthquake in its size and the significance of earthquake in its color. Earthquakes with higher magnitudes appear larger and those with higher significance appear darker in color. When any marker is clicked a pop-up appears providing additional information about the quake.
