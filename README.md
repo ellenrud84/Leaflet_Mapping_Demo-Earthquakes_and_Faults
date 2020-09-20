@@ -3,7 +3,7 @@
 In this demo I use the Leaflet mapping plugin to create interactive maps showing both United States fault lines and global earthquakes.
 
 ## Technologies Used:
-Leaflet, html, CSS
+Leaflet, html, CSS, javascript
 
 ## Results:
 Is is evident from the mapping demo, that most earthquakes are clustered around areas with several fault lines (as expected).
